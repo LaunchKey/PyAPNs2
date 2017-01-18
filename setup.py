@@ -11,7 +11,7 @@ except ImportError:
     dependencies.append('enum34')
 
 setup(
-    name='apns2',
+    name='pyapns2',
     version='0.1.4',
     packages=['apns2'],
     install_requires=dependencies,
