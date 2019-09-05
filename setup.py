@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-from distutils.core import setup
+from setuptools import setup
 
 dependencies = ['hyper']
 
@@ -12,7 +12,7 @@ except ImportError:
 
 setup(
     name='pyapns2',
-    version='0.1.4',
+    version='0.1.5',
     packages=['apns2'],
     install_requires=dependencies,
     url='https://github.com/Pr0Ger/PyAPNs2',

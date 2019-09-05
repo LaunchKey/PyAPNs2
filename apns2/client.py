@@ -49,7 +49,8 @@ class APNsClient(object):
         json_payload = json_str.encode('utf-8')
 
         headers = {
-            'apns-priority': priority.value
+            'apns-priority': priority.value,
+            'apns-push-type': 'alert'
         }
         if topic:
             headers['apns-topic'] = topic
